@@ -40,31 +40,31 @@ const Navigation = () => {
                 } ${!status === true ? "hidden" : null}`}
             >
                 <a
-                    href="#"
+                    href="/"
                     className="block py-1 text-gray-600 hover:underline"
                 >
-                    {status ? "true" : "false"}
+                    Home
                 </a>
                 <a
-                    href="#"
+                    href="#about-us"
                     className="block py-1 text-gray-600 hover:underline"
                 >
                     About us
                 </a>
                 <a
-                    href="#"
+                    href="#services"
                     className="block py-1 text-gray-600 hover:underline"
                 >
                     Services
                 </a>
                 <a
-                    href="#"
+                    href="#blog"
                     className="block py-1 text-gray-600 hover:underline"
                 >
                     Blog
                 </a>
                 <a
-                    href="#"
+                    href="#contact"
                     className="block py-1 text-gray-600 hover:underline"
                 >
                     Contact
