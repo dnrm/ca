@@ -2,6 +2,7 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Section from "./components/Section";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -26,7 +27,27 @@ function App() {
                     ac felis lobortis venenatis. Mauris cursus ornare lacus a
                     elementum.
                 </Section>
-                <Section heading="Subheading" img="../images/teacher.svg" color="#f5cb5c">
+                <Section heading="Nuestra Filosofía" img="../images/teacher.svg" color="#fad075" textColor="#303030">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum auctor velit sit amet egestas maximus. Curabitur
+                    vel blandit dui. Integer vestibulum diam in arcu placerat,
+                    eget faucibus orci egestas. Curabitur aliquam diam sed
+                    sodales feugiat. Integer viverra vel ligula sed mollis.
+                    Aliquam pellentesque tincidunt orci, ornare elementum felis
+                    suscipit ut. Praesent sed nibh mollis metus tincidunt
+                    gravida.
+                </Section>
+                <Section heading="Temas con los que trabajamos" img="../images/teacher.svg" color="white" right textColor="#303030">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum auctor velit sit amet egestas maximus. Curabitur
+                    vel blandit dui. Integer vestibulum diam in arcu placerat,
+                    eget faucibus orci egestas. Curabitur aliquam diam sed
+                    sodales feugiat. Integer viverra vel ligula sed mollis.
+                    Aliquam pellentesque tincidunt orci, ornare elementum felis
+                    suscipit ut. Praesent sed nibh mollis metus tincidunt
+                    gravida.
+                </Section>
+                <Section heading="Logros" img="../images/teacher.svg" color="#fad075" textColor="#303030">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum auctor velit sit amet egestas maximus. Curabitur
                     vel blandit dui. Integer vestibulum diam in arcu placerat,
@@ -37,6 +58,7 @@ function App() {
                     gravida.
                 </Section>
             </main>
+            <Footer />
         </div>
     );
 }
