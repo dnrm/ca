@@ -9,7 +9,7 @@ const Navigation = () => {
     };
 
     return (
-        <header className="flex flex-wrap flex-row justify-between items-center md:space-x-4 bg-white py-3 px-3 relative">
+        <header className="flex flex-wrap flex-row justify-between items-center md:space-x-4 bg-white py-3 px-3 pr-6 relative">
             <a href="/" className="block">
                 <img
                     className="h-16"
@@ -28,9 +28,9 @@ const Navigation = () => {
                     xmlns="http://www.w3.org/2000/svg"
                 >
                     <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                     ></path>
                 </svg>
             </button>
@@ -43,31 +43,31 @@ const Navigation = () => {
                     href="/"
                     className="block py-1 text-gray-600 hover:underline"
                 >
-                    Home
+                    Inicio
                 </a>
                 <a
                     href="#about-us"
                     className="block py-1 text-gray-600 hover:underline"
                 >
-                    About us
+                    Sobre Nosotros
                 </a>
                 <a
                     href="#services"
                     className="block py-1 text-gray-600 hover:underline"
                 >
-                    Services
+                    Precios
                 </a>
                 <a
                     href="#blog"
                     className="block py-1 text-gray-600 hover:underline"
                 >
-                    Blog
+                    Proyectos
                 </a>
                 <a
                     href="#contact"
                     className="block py-1 text-gray-600 hover:underline"
                 >
-                    Contact
+                    Contacto
                 </a>
             </nav>
         </header>

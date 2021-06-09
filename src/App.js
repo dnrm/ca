@@ -27,7 +27,7 @@ function App() {
                     ac felis lobortis venenatis. Mauris cursus ornare lacus a
                     elementum.
                 </Section>
-                <Section heading="Nuestra Filosofía" img="../images/teacher.svg" color="#fad075" textColor="#303030">
+                <Section heading="Nuestra Filosofía" img="../images/ca1.jpg" color="#fad075" textColor="gray-800">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum auctor velit sit amet egestas maximus. Curabitur
                     vel blandit dui. Integer vestibulum diam in arcu placerat,
@@ -37,7 +37,7 @@ function App() {
                     suscipit ut. Praesent sed nibh mollis metus tincidunt
                     gravida.
                 </Section>
-                <Section heading="Temas con los que trabajamos" img="../images/teacher.svg" color="white" right textColor="#303030">
+                <Section heading="Temas con los que trabajamos" img="../images/ca2.jpg" color="white" right textColor="#303030">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum auctor velit sit amet egestas maximus. Curabitur
                     vel blandit dui. Integer vestibulum diam in arcu placerat,
@@ -47,7 +47,7 @@ function App() {
                     suscipit ut. Praesent sed nibh mollis metus tincidunt
                     gravida.
                 </Section>
-                <Section heading="Logros" img="../images/teacher.svg" color="#fad075" textColor="#303030">
+                <Section heading="Logros" img="../images/ca4.jpg" color="#fad075" textColor="gray-800">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum auctor velit sit amet egestas maximus. Curabitur
                     vel blandit dui. Integer vestibulum diam in arcu placerat,
