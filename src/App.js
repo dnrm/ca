@@ -8,7 +8,7 @@ function App() {
     return (
         <div className="app">
             <Navigation />
-            <Hero text="Bienvenido" />
+            <Hero />
             <main className="flex justify-center items-center flex-col">
                 <Section heading="¿Qué nos hace diferentes?" pureText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
