@@ -6,7 +6,7 @@ const Hero = (props) => {
             id="hero"
             className="py-32 h-auto flex justify-center px-12 md:pl-24 bg-cover bg-center bg-blend-darken flex-col text-left"
         >
-            <h3 className="text-lg sm:text-2xl md:text-2xl lg:text-2xl text-white font-semibold">
+            <h3 className="hidden sm:block sm:text-xl md:text-2xl lg:text-2xl text-white font-semibold">
                 El mundo está cambiando, ahora todo es digital, es necesario
                 tener herramientas para estar al día.
             </h3>

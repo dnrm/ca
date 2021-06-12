@@ -9,7 +9,7 @@ const Navigation = () => {
     };
 
     return (
-        <header className="flex flex-wrap flex-row justify-between items-center md:space-x-4 bg-white py-3 px-3 pr-6 relative">
+        <header className="fixed flex flex-wrap flex-row justify-between items-center lg:space-x-4 bg-white py-3 px-3 pr-6 w-full shadow-lg">
             <a href="/" className="block">
                 <img
                     className="h-16"
@@ -19,7 +19,7 @@ const Navigation = () => {
                 />
             </a>
             <button
-                className="inline-block md:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1"
+                className="inline-block lg:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1"
                 onClick={toggleNav}
             >
                 <svg
@@ -35,39 +35,48 @@ const Navigation = () => {
                 </svg>
             </button>
             <nav
-                className={`mt-4 md:mt-0 absolute md:relative top-16 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-white shadow-md rounded-lg md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0 ${
+                className={`flex items-start md:items-center mt-4 lg:mt-0 absolute lg:relative top-16 left-0 lg:top-0 z-20 lg:flex flex-col lg:flex-row lg:space-x-6 font-semibold w-full lg:w-auto bg-white shadow-md rounded-lg lg:rounded-none lg:shadow-none lg:bg-transparent p-6 pt-0 lg:p-0 ${
                     status === true ? "flex" : null
                 } ${!status === true ? "hidden" : null}`}
             >
                 <a
                     href="/"
-                    className="block py-1 text-gray-600 hover:underline"
+                    className="block py-1 text-gray-600 hover:underline text-sm"
                 >
                     Inicio
                 </a>
                 <a
                     href="#about-us"
-                    className="block py-1 text-gray-600 hover:underline"
+                    className="block py-1 text-gray-600 hover:underline text-sm"
                 >
-                    Sobre Nosotros
+                    Nosotros
                 </a>
                 <a
                     href="#services"
-                    className="block py-1 text-gray-600 hover:underline"
+                    className="block py-1 text-gray-600 hover:underline text-sm"
                 >
-                    Precios
+                    Reconocimientos
                 </a>
                 <a
                     href="#blog"
-                    className="block py-1 text-gray-600 hover:underline"
+                    className="block py-1 text-gray-600 hover:underline text-sm"
                 >
-                    Proyectos
+                    Temas
                 </a>
                 <a
                     href="#contact"
-                    className="block py-1 text-gray-600 hover:underline"
+                    className="block py-1 text-gray-600 hover:underline text-sm"
                 >
-                    Contacto
+                    Beneficios
+                </a>
+                <a
+                    href="#contact"
+                    className="block py-1 text-gray-600 hover:underline text-sm"
+                >
+                    Contáctanos
+                </a>
+                <a className="bg-yellow-300 text-black font-semibold p-4 rounded-lg shadow-md text-sm" href="https://www.facebook.com/CodingAcademyMty/">
+                    Agenda una clase prueba
                 </a>
             </nav>
         </header>
