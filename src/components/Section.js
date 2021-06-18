@@ -6,6 +6,7 @@ const Section = (props) => {
             <section
                 className="xl:px-32 md:px-20 px-8 py-16 flex justify-center items-center flex-col"
                 style={{ backgroundColor: props.color }}
+                id={props.id}
             >
                 <h1 className={`font-black text-3xl text-${props.textColor} py-4`}>
                     {props.heading}
@@ -18,9 +19,10 @@ const Section = (props) => {
     if (props.right) {
         return (
             <section
-                id="block-2"
+                id={props.id}
                 className="xl:px-32 md:px-20 px-10 py-16 grid md:grid-cols-3 grid-cols-1 gap-4"
                 style={{ backgroundColor: props.color }}
+
             >
                 <div className="text flex justify-center items-start flex-col ml-0 md:mr-4 col-span-2">
                     <h1 className={`font-bold text-3xl text-${props.textColor} py-4`}>
@@ -39,7 +41,7 @@ const Section = (props) => {
 
     return (
         <section
-            id="block-3"
+            id={props.id}
             className="xl:px-32 md:px-20 px-10 py-16 grid md:grid-cols-2 grid-cols-1 gap-4"
             style={{ backgroundColor: props.color }}
         >
