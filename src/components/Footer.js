@@ -22,7 +22,15 @@ const Footer = () => {
                     target="_blank"
                     className="pr-4"
                 >
-                    <i className="fab fa-facebook-square"></i>
+                    <i className="fab fa-facebook-f"></i>
+                </a>
+                <a
+                    href="mailto:info@codingacademy.mx"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="pr-4"
+                >
+                    <i class="far fa-envelope"></i>
                 </a>
             </div>
         </footer>

@@ -4,6 +4,7 @@ import Section from "./components/Section";
 import Footer from "./components/Footer";
 import Awards from './components/Awards';
 import ContactButton from './components/ContactButton';
+import Benefits from './components/Benefits';
 
 function App() {
     return (
@@ -41,52 +42,7 @@ function App() {
                     </details>
                 </Section>
                 <Awards />
-                <Section
-                    heading="Nuestra Filosofía"
-                    img="../images/ca1.jpg"
-                    color="#fce69d"
-                    textColor="gray-800"
-                >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum auctor velit sit amet egestas maximus. Curabitur
-                    vel blandit dui. Integer vestibulum diam in arcu placerat,
-                    eget faucibus orci egestas. Curabitur aliquam diam sed
-                    sodales feugiat. Integer viverra vel ligula sed mollis.
-                    Aliquam pellentesque tincidunt orci, ornare elementum felis
-                    suscipit ut. Praesent sed nibh mollis metus tincidunt
-                    gravida.
-                </Section>
-                <Section
-                    heading="Temas con los que trabajamos"
-                    img="../images/ca2.jpg"
-                    color="white"
-                    right
-                    textColor="#303030"
-                >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum auctor velit sit amet egestas maximus. Curabitur
-                    vel blandit dui. Integer vestibulum diam in arcu placerat,
-                    eget faucibus orci egestas. Curabitur aliquam diam sed
-                    sodales feugiat. Integer viverra vel ligula sed mollis.
-                    Aliquam pellentesque tincidunt orci, ornare elementum felis
-                    suscipit ut. Praesent sed nibh mollis metus tincidunt
-                    gravida.
-                </Section>
-                <Section
-                    heading="Logros"
-                    img="../images/ca4.jpg"
-                    color="#fad075"
-                    textColor="gray-800"
-                >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum auctor velit sit amet egestas maximus. Curabitur
-                    vel blandit dui. Integer vestibulum diam in arcu placerat,
-                    eget faucibus orci egestas. Curabitur aliquam diam sed
-                    sodales feugiat. Integer viverra vel ligula sed mollis.
-                    Aliquam pellentesque tincidunt orci, ornare elementum felis
-                    suscipit ut. Praesent sed nibh mollis metus tincidunt
-                    gravida.
-                </Section>
+                <Benefits />
             </main>
             <Footer />
             <ContactButton />
