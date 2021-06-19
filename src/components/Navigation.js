@@ -9,7 +9,7 @@ const Navigation = () => {
     };
 
     return (
-        <header className="fixed flex flex-wrap flex-row justify-between items-center lg:space-x-4 bg-white py-3 px-3 pr-6 w-full shadow-lg bg-opacity-70 backdrop-filter backdrop-blur-xl">
+        <header className="fixed flex flex-wrap flex-row justify-between items-center lg:space-x-4 bg-white py-3 px-3 pr-6 w-full shadow-lg"> {/* bg-opacity-70 backdrop-filter backdrop-blur-xl */}
             <a href="/" className="block">
                 <img
                     className="h-16"
@@ -39,7 +39,7 @@ const Navigation = () => {
             >
                 <button
                     onClick={() => { window.scrollTo(0, 0); window.history.pushState(null, "", '/'); }}
-                    className="block py-1 text-gray-600 hover:underline text-sm font-semibold"
+                    className="block py-1 text-gray-600 hover:underline text-sm font-semibold outline-none"
                 >
                     Inicio
                 </button>
@@ -62,7 +62,7 @@ const Navigation = () => {
                     Temas
                 </a>
                 <a
-                    href="#contact"
+                    href="#beneficios"
                     className="block py-1 text-gray-600 hover:underline text-sm"
                 >
                     Beneficios
@@ -73,7 +73,7 @@ const Navigation = () => {
                 >
                     Contáctanos
                 </a>
-                <a className="bg-yellow-300 text-black font-semibold p-4 rounded-lg shadow-md text-sm" href="https://www.facebook.com/CodingAcademyMty/">
+                <a className="bg-yellow-300 text-black font-semibold p-4 rounded-lg shadow-md text-sm" href="https://www.facebook.com/CodingAcademyMty/" target="_blank rel="noreferrer>
                     Agenda una clase prueba
                 </a>
             </nav>

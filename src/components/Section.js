@@ -4,7 +4,7 @@ const Section = (props) => {
     if (props.pureText) {
         return (
             <section
-                className="xl:px-32 md:px-20 px-8 py-16 flex justify-center items-center flex-col"
+                className="xl:px-32 md:px-20 px-4 py-16 flex justify-center items-center flex-col"
                 style={{ backgroundColor: props.color }}
                 id={props.id}
             >
@@ -20,7 +20,7 @@ const Section = (props) => {
         return (
             <section
                 id={props.id}
-                className="xl:px-32 md:px-20 px-10 py-16 grid md:grid-cols-3 grid-cols-1 gap-4"
+                className="xl:px-32 md:px-20 px-4 py-16 grid md:grid-cols-3 grid-cols-1 gap-4"
                 style={{ backgroundColor: props.color }}
 
             >
@@ -33,7 +33,7 @@ const Section = (props) => {
                     </p>
                 </div>
                 <div className="image flex justify-center items-center">
-                    <img src={props.img} alt="" className="border-white border-4 border-white" />
+                    <img src={props.img} alt="" className=" border-4 border-white" />
                 </div>
             </section>
         );
@@ -42,11 +42,11 @@ const Section = (props) => {
     return (
         <section
             id={props.id}
-            className="xl:px-32 md:px-20 px-10 py-16 grid md:grid-cols-2 grid-cols-1 gap-4"
+            className="xl:px-32 md:px-20 px-4 py-16 grid md:grid-cols-2 grid-cols-1 gap-4"
             style={{ backgroundColor: props.color }}
         >
             <div className="image flex justify-center items-center">
-                <img src={props.img} className="border-white border-4 border-white" alt="" />
+                <img src={props.img} className=" border-4 border-white" alt="" />
             </div>
             <div className="text flex justify-center items-start flex-col ml-0 md:ml-8">
                 <h1
