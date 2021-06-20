@@ -18,7 +18,7 @@ const Navigation = () => {
                 />
             </a>
             <button
-                className="inline-block lg:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1"
+                className="inline-block lg:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1 rounded-md"
                 onClick={toggleNav}
             >
                 <svg
@@ -56,7 +56,7 @@ const Navigation = () => {
                     Reconocimientos
                 </a>
                 <a
-                    href="#blog"
+                    href="#temas"
                     className="block py-1 text-gray-600 hover:underline text-sm"
                 >
                     Temas
@@ -68,12 +68,12 @@ const Navigation = () => {
                     Beneficios
                 </a>
                 <a
-                    href="#contact"
+                    href="#contacto"
                     className="block py-1 text-gray-600 hover:underline text-sm"
                 >
                     Contáctanos
                 </a>
-                <a className="bg-yellow-300 text-black font-semibold p-4 rounded-lg shadow-md text-sm" href="https://www.facebook.com/CodingAcademyMty/" target="_blank rel="noreferrer>
+                <a className="bg-yellow-300 text-black font-semibold p-4 rounded-lg shadow-md text-sm" href="https://api.whatsapp.com/send?phone=5218121285867&text=" target="_blank rel="noreferrer>
                     Agenda una clase prueba
                 </a>
             </nav>

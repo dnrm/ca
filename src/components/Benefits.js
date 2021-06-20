@@ -3,8 +3,8 @@ import Layout from './Layout';
 
 const Benefits = () => {
     return (
-        <Layout>
-            <div className="text flex justify-center items-start flex-col ml-0 md:mr-4 col-span-2" id="beneficios">
+        <Layout id="beneficios">
+            <div className="text flex justify-center items-start flex-col ml-0 md:mr-4 col-span-2">
                 <h1 className={`font-bold text-4xl md:text-6xl text-black py-4 tracking-tighter`}>
                     Beneficios
                 </h1>

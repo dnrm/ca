@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Awards from './components/Awards';
 import ContactButton from './components/ContactButton';
 import Benefits from './components/Benefits';
+import Temas from "./components/Temas";
 
 function App() {
     return (
@@ -42,6 +43,7 @@ function App() {
                     </details>
                 </Section>
                 <Awards />
+                <Temas />
                 <Benefits />
             </main>
             <Footer />
