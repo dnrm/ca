@@ -73,7 +73,7 @@ const Navigation = () => {
                 >
                     Contáctanos
                 </a>
-                <a className="bg-yellow-300 text-black font-semibold p-4 rounded-lg shadow-md text-sm" href="https://api.whatsapp.com/send?phone=5218121285867&text=" target="_blank rel="noreferrer>
+                <a className="bg-yellow-300 text-black font-semibold p-4 rounded-lg shadow-md text-sm" href="https://api.whatsapp.com/send?phone=5218121285867&text=" target="_blank" rel="noreferrer">
                     Agenda una clase prueba
                 </a>
             </nav>

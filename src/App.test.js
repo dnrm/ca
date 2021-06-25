@@ -3,12 +3,12 @@ import App from './App';
 
 test('Renders hero section', () => {
   render(<App />);
-  const heroText = screen.getByText(/Bienvenido/i);
+  const heroText = screen.getByText(/Coding Academy/i);
   expect(heroText).toBeInTheDocument();
 });
 
 test('Renders footer', () => {
   render(<App />);
-  const footer = screen.getByText(/Coding Academy/i);
+  const footer = screen.getByText(/©/i);
   expect(footer).toBeInTheDocument();
 })
