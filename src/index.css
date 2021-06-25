@@ -1,3 +1,7 @@
+:root {
+    font-size: 14px;
+}
+
 * {
     scroll-behavior: smooth;
     outline: none;
@@ -8,7 +12,7 @@
 @tailwind utilities;
 
 section#hero {
-    background-image: url("https://images.unsplash.com/photo-1487528742387-d53d4f12488d");
+    background-image: url("./images/hero.jpg");
 }
 
 section#block-2 {

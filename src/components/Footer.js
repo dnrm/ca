@@ -15,7 +15,12 @@ const Footer = () => {
                 <h3 className="text-sm text-gray-100">
                     <a href="mailto:info@codingacademy.mx" className="text-blue-300"> info@codingacademy.mx</a></h3>
                 <h3 className="text-sm text-gray-100">
-                    <a href="tel:(811)-975-9016" className="text-blue-300">(811) 975-9016</a></h3>
+                    <a href="tel:(811)-975-9016" className="text-blue-300">(811) 975-9016</a>
+                </h3>
+                <hr className="my-2" />
+                <p className="text-gray-100 text-sm">
+                    <a rel="noreferrer" className="text-blue-300" target="_blank" href="https://icons8.com/icon/mJAzocdevEhF/trophy">Trophy</a> icon by <a className="text-blue-300" rel="noreferrer" target="_blank" href="https://icons8.com">Icons8</a>
+                </p>
             </div>
             <div className="icons text-white text-2xl flex-col col-span-6">
                 <h1 className="text-left font-semibold">Contáctanos</h1>

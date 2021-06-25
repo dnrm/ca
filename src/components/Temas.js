@@ -4,7 +4,7 @@ import Layout from './Layout';
 const Temas = () => {
     return (
         <Layout id="temas">
-            <div className="text col-span-1">
+            <div className="text col-span-1 w-full">
                 <h1 className={`font-bold text-4xl md:text-6xl text-black py-4 tracking-tighter`}>Temas</h1>
                 <div className="list grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 m-0 md:mr-4">
                     <div className="electronics">
@@ -59,7 +59,7 @@ const Temas = () => {
                 </div>
             </div>
             <div className="img col-span-2">
-                <img src="/images/temas.jpg" alt="" />
+                <img src="/images/temas.jpg" alt="" className="w-full" />
             </div>
         </Layout>
     )

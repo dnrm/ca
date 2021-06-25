@@ -32,7 +32,7 @@ const Section = (props) => {
                         {props.children}
                     </p>
                 </div>
-                <div className="image flex justify-center items-center">
+                <div className="image flex justify-center items-start">
                     <img src={props.img} alt="" className=" border-4 border-white" />
                 </div>
             </section>
