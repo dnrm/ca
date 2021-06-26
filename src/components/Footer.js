@@ -5,18 +5,20 @@ const Footer = () => {
         <footer className="p-6 bg-gray-600 border-t-2 border-gray-700 grid grid-cols-1 md:grid-cols-8 place-items-start" id="contacto">
             <div className="information col-span-2">
                 <h1 className="text-xl text-gray-100 font-semibold leading-tight pb-2">
-                    Coding Academy Monterrey
+                    CODING ACADEMY
                 </h1>
                 <h2 className="text-gray-100 font-normal text-md leading-tight">
-                    Sierra Alta 8vo Sector
+                    Carr Nacional #4800
+                    <br />
+                    Col. Valle Alto
                     <br />
                     Monterrey, México
+                    <h3 className="text-sm text-gray-100">
+                        <a href="tel:(811)-975-9016" className="text-blue-300">(811) 975-9016</a>
+                    </h3>
                 </h2>
                 <h3 className="text-sm text-gray-100">
                     <a href="mailto:info@codingacademy.mx" className="text-blue-300"> info@codingacademy.mx</a></h3>
-                <h3 className="text-sm text-gray-100">
-                    <a href="tel:(811)-975-9016" className="text-blue-300">(811) 975-9016</a>
-                </h3>
                 <hr className="my-2" />
                 <details className="text-white">
                     <summary>Íconos</summary>
@@ -37,6 +39,9 @@ const Footer = () => {
                     </p>
                     <p className="text-gray-100 text-sm">
                         <a rel="noreferrer" className="text-blue-300" target="_blank" href="https://icons8.com/icon/YDB2BiId0wKq/army-star">Army Star</a> icon by <a rel="noreferrer" className="text-blue-300" target="_blank" href="https://icons8.com">Icons8</a>
+                    </p>
+                    <p className="text-gray-100 text-sm">
+                        <a rel="noreferrer" className="text-blue-300" target="_blank" href="https://icons8.com/icon/42855/star">Star</a> icon by <a rel="noreferrer" className="text-blue-300" target="_blank" href="https://icons8.com">Icons8</a>
                     </p>
                 </details>
             </div>

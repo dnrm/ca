@@ -9,37 +9,7 @@ const Awards = () => {
                     <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center py-8 md:py-12 px-4 text-gray-800 tracking-tighter">La mejor manera de aprender incluye competencias nacionales y mundiales. Algunos de nuestros logros:</h1>
                 </div>
                 <div className="award-cards grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:px-32 md:px-20 px-8 pb-12">
-                    <AwardCard title="Mejor Mentor" img={`/images/mejor-mentor.jpg`}>
-                        MakeX Global Championship 2018
-                        <br />
-                        Competencia de Automatización de Robots
-                        <br />
-                        CHINA
-                        <details className="pt-2">
-                            <summary>Ver más</summary>
-                            <p>
-                                Este premio es entregado a los profesores que demostraron liderazgo, innovación y superioridad técnica, que llevó al equipo a formar parte de la final en el mundial de robótica en China.
-                            </p>
-                            <img src="/images/equipo-2018.jpeg" className="mt-2 rounded-lg" alt="" />
-                        </details>
-                    </AwardCard>
-                    <AwardCard title="2do Lugar Global (sin Asia)" img={`/images/primaria-2018.jpg`}>
-                        MakeX Global Championship 2018
-                        <br />
-                        Primaria
-                        <br />
-                        Competencia de Automatización de Robots
-                        <br />
-                        CHINA
-                        <details className="pt-2">
-                            <summary>Ver más</summary>
-                            <p>
-                                Este premio es entregado a los competidores cuyo proyecto, desempeño y colaboración en equipo les llevó a completar la mayor cantidad de puntos quedando en el ranking mundial, en 2do lugar, sin cotemplar a la liga China. En una competencia con los mejores países del mundo con más de 2,000 competidores.
-                            </p>
-                            <img src="/images/arena-2018.jpeg" className="mt-2 rounded-lg" alt="" />
-                        </details>
-                    </AwardCard>
-                    <AwardCard title="3er Lugar Mundial" img={`/images/tercer-lugar.jpg`}>
+                    <AwardCard title="3er Lugar Mundial 2019" img={`/images/tercer-lugar.jpg`}>
                         MakeX Global Championship 2019
                         Secundaria
                         <br />
@@ -57,7 +27,37 @@ const Awards = () => {
                             <img src="/images/equipo-completo.jpg" className="mt-2 rounded-lg" alt="" />
                         </details>
                     </AwardCard>
-                    <AwardCard title="Primer Lugar México" img={`/images/primer-lugar-2019.jpg`}>
+                    <AwardCard title="2do Lugar Global 2018" img={`/images/primaria-2018.jpg`}>
+                        MakeX Global Championship 2018
+                        <br />
+                        Primaria
+                        <br />
+                        Competencia de Automatización de Robots
+                        <br />
+                        CHINA
+                        <details className="pt-2">
+                            <summary>Ver más</summary>
+                            <p>
+                                Este premio es entregado a los competidores cuyo proyecto, desempeño y colaboración en equipo les llevó a completar la mayor cantidad de puntos quedando en el ranking mundial, en 2do lugar, sin cotemplar a la liga China. En una competencia con los mejores países del mundo con más de 2,000 competidores.
+                            </p>
+                            <img src="/images/arena-2018.jpeg" className="mt-2 rounded-lg" alt="" />
+                        </details>
+                    </AwardCard>
+                    <AwardCard title="Mejor Mentor 2018" img={`/images/mejor-mentor.jpg`}>
+                        MakeX Global Championship 2018
+                        <br />
+                        Competencia de Automatización de Robots
+                        <br />
+                        CHINA
+                        <details className="pt-2">
+                            <summary>Ver más</summary>
+                            <p>
+                                Este premio es entregado a los profesores que demostraron liderazgo, innovación y superioridad técnica, que llevó al equipo a formar parte de la final en el mundial de robótica en China.
+                            </p>
+                            <img src="/images/equipo-2018.jpeg" className="mt-2 rounded-lg" alt="" />
+                        </details>
+                    </AwardCard>
+                    <AwardCard title="Primer Lugar Nacional 2018 y 2019" img={`/images/primer-lugar-2019.jpg`}>
                         MakeX Nacional 2018 y 2019
                         Primaria y Secundaria
                         <br />
@@ -75,7 +75,7 @@ const Awards = () => {
                             </p>
                         </details>
                     </AwardCard>
-                    <AwardCard title="Primer Lugar Regional" img={`/images/tmr.jpeg`}>
+                    <AwardCard title="Primer Lugar Regional 2018" img={`/images/tmr.jpeg`}>
                         TMR Regional Kids Challenge 2018 Primaria
                         <br />
                         Monterrey, N.L., México

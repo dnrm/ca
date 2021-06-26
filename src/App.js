@@ -7,6 +7,7 @@ import Benefits from './components/Benefits';
 import Temas from "./components/Temas";
 import Professors from "./components/Professors";
 import Main from './components/Main';
+import Recommendations from "./components/Recommendations";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                 <Professors />
                 <Temas />
                 <Benefits />
+                <Recommendations />
             </main>
             <Footer />
             <ContactButton />

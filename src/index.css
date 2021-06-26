@@ -12,7 +12,7 @@
 @tailwind utilities;
 
 section#hero {
-    background-image: url("./images/hero.jpg");
+    background-image: url("./images/bg.jpeg");
 }
 
 section#block-2 {
