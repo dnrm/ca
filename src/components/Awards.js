@@ -6,7 +6,7 @@ const Awards = () => {
         <div id="reconocimientos" className="flex flex-col justify-center items-center border-t-2 border-b-2">
             <div className="awards-section bg-topo">
                 <div className="heading w-full">
-                    <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center py-8 md:py-12 px-4 text-gray-800 tracking-tighter">La mejor manera de mprender incluye competencias nacionales y mundiales. Algunos de nuestros logros:</h1>
+                    <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center py-8 md:py-12 px-4 text-gray-800 tracking-tighter">La mejor manera de aprender incluye competencias nacionales y mundiales. Algunos de nuestros logros:</h1>
                 </div>
                 <div className="award-cards grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:px-32 md:px-20 px-8 pb-12">
                     <AwardCard title="Mejor Mentor" img={`/images/mejor-mentor.jpg`}>

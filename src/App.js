@@ -1,6 +1,5 @@
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
-import Section from "./components/Section";
 import Footer from "./components/Footer";
 import Awards from './components/Awards';
 import ContactButton from './components/ContactButton';
