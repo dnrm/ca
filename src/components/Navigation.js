@@ -59,7 +59,7 @@ const Navigation = () => {
                     href="#temas"
                     className="block py-1 text-gray-600 hover:underline text-sm"
                 >
-                    Temas
+                    Actividades
                 </a>
                 <a
                     href="#beneficios"
