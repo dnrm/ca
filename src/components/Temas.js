@@ -5,7 +5,7 @@ const Temas = () => {
     return (
         <Layout id="temas">
             <div className="text col-span-1 w-full">
-                <h1 className={`font-bold text-4xl md:text-6xl text-black py-4 tracking-tighter`}>Temas</h1>
+                <h1 className={`font-bold text-4xl md:text-6xl text-black py-4 tracking-tighter`}>Actividades</h1>
                 <div className="list grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 m-0 md:mr-4">
                     <div className="electronics">
                         <h3 className="mt-2 text-xl font-semibold">Electrónica</h3>

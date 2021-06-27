@@ -27,7 +27,7 @@ const Awards = () => {
                             <img src="/images/equipo-completo.jpg" className="mt-2 rounded-lg" alt="" />
                         </details>
                     </AwardCard>
-                    <AwardCard title="2do Lugar Global 2018" img={`/images/primaria-2018.jpg`}>
+                    <AwardCard title="2do Lugar Mundial 2018" img={`/images/primaria-2018.jpg`}>
                         MakeX Global Championship 2018
                         <br />
                         Primaria
