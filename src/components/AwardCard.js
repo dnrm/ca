@@ -5,7 +5,7 @@ const AwardCard = (props) => {
         <div className="h-auto flex flex-col justify-start items-start card p-0 md:p-4 bg-transparent rounded-xl transition-all duration-100">
             {props.video ? (
                 <div className="image w-full">
-                    <video src={props.img} alt="" className="rounded-lg object-cover w-full max-h-96" playsInline autoPlay="true" loop="true" />
+                    <video src={props.img} alt="" className="rounded-lg object-cover w-full max-h-96" playsInline autoPlay="true" loop="true" muted />
                 </div>
             ) : (
                 <div className="image w-full">

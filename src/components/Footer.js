@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
     return (
         <footer className="p-6 bg-gray-600 border-t-2 border-gray-700 grid grid-cols-1 md:grid-cols-8 place-items-start" id="contacto">
-            <div className="information col-span-2">
+            <div className="information col-span-2 lg:col-span-1">
                 <h1 className="text-xl text-gray-100 font-semibold leading-tight pb-2">
                     CODING ACADEMY
                 </h1>
@@ -44,6 +44,12 @@ const Footer = () => {
                         <a rel="noreferrer" className="text-blue-300" target="_blank" href="https://icons8.com/icon/42855/star">Star</a> icon by <a rel="noreferrer" className="text-blue-300" target="_blank" href="https://icons8.com">Icons8</a>
                     </p>
                 </details>
+                <details className="text-white">
+                    <summary>Avíso de Privacidad</summary>
+                    <p>
+                        cookies de chocolate y datos del usuario sabor mango (placeholder)
+                    </p>
+                </details>
             </div>
             <div className="icons text-white text-2xl flex-col col-span-6">
                 <h1 className="text-left font-semibold">Contáctanos</h1>
@@ -66,7 +72,7 @@ const Footer = () => {
                             <i className="fab fa-facebook-f text-4xl"></i>
                         </a>
                         <a
-                            href="https://api.whatsapp.com/send?phone=5218121285867&text="
+                            href="https://api.whatsapp.com/send?phone=528110759016&text="
                             rel="noreferrer"
                             target="_blank"
                             className="pr-4"
