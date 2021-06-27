@@ -72,7 +72,7 @@ const Footer = () => {
                             <i className="fab fa-facebook-f text-4xl"></i>
                         </a>
                         <a
-                            href="https://api.whatsapp.com/send?phone=528110759016&text="
+                            href="https://api.whatsapp.com/send?phone=528121285867&text="
                             rel="noreferrer"
                             target="_blank"
                             className="pr-4"
