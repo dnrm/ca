@@ -8,7 +8,7 @@ const Awards = () => {
                 <div className="heading w-full">
                     <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center py-8 md:py-12 px-4 text-gray-800 tracking-tighter">La mejor manera de aprender incluye competencias nacionales y mundiales. Algunos de nuestros logros:</h1>
                 </div>
-                <div className="award-cards grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:px-32 md:px-20 px-8 pb-12">
+                <div className="award-cards grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:px-32 md:px-20 px-4 pb-12">
                     <AwardCard title="3er Lugar Mundial 2019" img={`/images/tercer-lugar.jpg`}>
                         MakeX Global Championship 2019
                         Secundaria
@@ -87,7 +87,7 @@ const Awards = () => {
                             <img src="/images/tmr-mesa.jpeg" className="mt-2 rounded-xl" alt="" />
                         </details>
                     </AwardCard>
-                    <AwardCard title="Nacional Coding Academy 2020" img={`https://source.unsplash.com/random?abstract,texture&id=${Math.random()}`}>
+                    <AwardCard title="Nacional Coding Academy 2020" img={`/images/ganadores.mp4`} video>
                         Competencia Nacional de Videojuegos
                         Primaria y Secundaria
                         <br />
@@ -97,6 +97,7 @@ const Awards = () => {
                             <p>
                                 Competencia Virtual organizada entre alumnos de la Academia, con más de 60 participantes, donde se entregaron premios a los primeros 3 lugares y reconocimientos especiales a los proyectos más prometedores. Inspirando a los chicos a desarrollar material propio en su tiempo libre.
                             </p>
+                            <img src="/images/competencia-interna.jpeg" className="mt-2 rounded-xl" alt="" />
                         </details>
                     </AwardCard>
                 </div>
