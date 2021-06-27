@@ -84,6 +84,7 @@ const Awards = () => {
                             <p>
                                 Competencia con chicos de entre 8 y 13 años, dónde se debía recoger piezas con temporizador, programando un control remoto para operar con un brazo mecánico en el menor tiempo posible.
                             </p>
+                            <img src="/images/tmr-mesa.jpeg" className="mt-2 rounded-xl" alt="" />
                         </details>
                     </AwardCard>
                     <AwardCard title="Nacional Coding Academy 2020" img={`https://source.unsplash.com/random?abstract,texture&id=${Math.random()}`}>

@@ -9,7 +9,7 @@ const Benefits = () => {
                 <h1 className={`font-bold text-4xl md:text-6xl text-black py-4 tracking-tighter`}>
                     Beneficios
                 </h1>
-                <div className="benefits-grid grid gap-2 grid-cols-2 sm:grid-cols-5 md:grid-cols-7 mt-4 w-full">
+                <div className="benefits-grid grid gap-2 grid-cols-2 sm:grid-cols-5 md:grid-cols-7 mt-8 w-full">
                     <Benefit img="/images/digital-innovation.gif">
                         Inovación digital
                     </Benefit>
