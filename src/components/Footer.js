@@ -14,7 +14,7 @@ const Footer = () => {
                     <br />
                     Monterrey, México
                     <h3 className="text-sm text-gray-100">
-                        <a href="tel:+52-(81)-1075-9016" className="text-blue-300">+52 (81) 1075-9016</a>
+                        <a href="tel:+52-(811)-075-9016" className="text-blue-300">+52 (811) 075-9016</a>
                     </h3>
                 </h2>
                 <h3 className="text-sm text-gray-100">
