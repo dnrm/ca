@@ -59,7 +59,7 @@ const Temas = () => {
                 </div>
             </div>
             <div className="img col-span-2">
-                <img src="/images/temas.jpg" alt="" className="w-full" />
+                <img src="/images/temas.jpeg" alt="" className="w-full" />
             </div>
         </Layout>
     )
