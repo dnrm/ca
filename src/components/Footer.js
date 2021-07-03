@@ -37,6 +37,7 @@ const Footer = () => {
                             {" "}
                             info@codingacademy.mx
                         </a>
+                            <p>Página por <a href="https://medina.dev" className="text-blue-300">Daniel Medina</a></p>
                     </h3>
                     <hr className="my-2" />
                     <details className="text-white">
